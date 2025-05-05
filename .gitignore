@@ -1,3 +1,11 @@
+.gradle
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
+xcuserdata
 # Gradle files
 .gradle/
 build/
