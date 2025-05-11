@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "multi"
+rootProject.name = "kmp"
 include(":androidApp")
 include(":shared")

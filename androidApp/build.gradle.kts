@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.roblesmoreno.multi.android"
+    namespace = "com.roblesmoreno.kmp.android"
     compileSdk = 35
     defaultConfig {
-        applicationId = "com.roblesmoreno.multi.android"
-        minSdk = 24
+        applicationId = "com.roblesmoreno.kmp.android"
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"

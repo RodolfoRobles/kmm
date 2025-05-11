@@ -38,10 +38,10 @@ kotlin {
 }
 
 android {
-    namespace = "com.roblesmoreno.multi"
+    namespace = "com.roblesmoreno.kmp"
     compileSdk = 35
     defaultConfig {
-        minSdk = 24
+        minSdk = 26
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
