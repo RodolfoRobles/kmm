@@ -22,9 +22,9 @@ class Greeting {
         emit(flightComponent.flightPhrase())
     }
 
-//    fun greetingList(): List<String> = buildList {
-//        add(if (Random.nextBoolean()) "HI!" else "Hello!")
-//        add("Guess what this is ! > ${platform.name.reversed()}")
-//        add(dayPhrases())
-//    }
+    fun greetingList(): List<String> = buildList {
+        add(if (Random.nextBoolean()) "HI!" else "Hello!")
+        add("Guess what this is ! > ${platform.name.reversed()}")
+        add(dayPhrases())
+    }
 }

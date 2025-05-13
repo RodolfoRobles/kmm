@@ -3,12 +3,11 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("co.touchlab.skie") version "0.8.2"
+//    id("co.touchlab.skie") version "0.10.1"
     kotlin("plugin.serialization") version "2.1.20"
 }
 
 kotlin {
-    val ktorVersion = "3.1.3"
 
     androidTarget {
         compilations.all {
@@ -48,7 +47,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel.compose.v261)
         }
         iosMain.dependencies {
-            implementation(libs.ktor.client.darwin)
+//            implementation(libs.ktor.client.darwin)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
