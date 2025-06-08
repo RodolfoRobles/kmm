@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "data": {
+    "flightNumber": "UA2345",
+    "airline": "United Airlines",
+    "departure": {
+      "airport": "SFO",
+      "airportName": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "time": "2024-07-15T10:00:00-07:00",
+      "terminal": "3",
+      "gate": "42"
+    },
+    "arrival": {
+      "airport": "JFK",
+      "airportName": "John F. Kennedy International Airport",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "time": "2024-07-15T18:30:00-04:00",
+      "terminal": "7",
+      "gate": "12"
+    },
+    "duration": "5h30m",
+    "stops": 0,
+    "class": "Economy",
+    "price": {
+      "amount": 350.00,
+      "currency": "USD"
+    },
+    "aircraft": "Boeing 737-900",
+    "baggageAllowance": {
+      "checkedBags": 1,
+      "carryOnBags": 1,
+      "checkedBagDetails": "First bag free, additional bags $30 each"
+    },
+    "isRefundable": true,
+    "fareBasisCode": "YCLASSIC"
+  }
+}
