@@ -47,7 +47,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel.compose.v261)
         }
         iosMain.dependencies {
-//            implementation(libs.ktor.client.darwin)
+            implementation(libs.ktor.client.darwin)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

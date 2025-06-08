@@ -14,7 +14,7 @@ class FlightViewModel : ViewModel() {
 
     init {
         viewModelScope.launch {
-            Greeting().greet().collect { phrase ->
+            Greeting().flightResponse().collect { phrase ->
                 _greetingList.update { list -> list + phrase }
             }
         }

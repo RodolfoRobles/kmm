@@ -20,6 +20,11 @@ class Greeting {
         delay(1.seconds)
         println("Greet: ${flightComponent.flightPhrase()}")
         emit(flightComponent.flightPhrase())
+        emit(flightComponent.getFLightNumber())
+    }
+
+    fun flightResponse():Flow<String> = flow{
+        emit(flightComponent.flightPhrase())
     }
 
     fun greetingList(): List<String> = buildList {
